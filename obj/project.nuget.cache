@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZfMdpaFqoEDboaSZeULfXwOsAvBJ3dwibs82B4DKF8i+2kW0NGp2AIvd0QGFDV+3HUGADmAyONx2OkjGsmhIjg==",
+  "dgSpecHash": "FWI8ytr0V+Z8nxqlbDPoUwsYyrFY3LESIZbIm2F0NG6tRKyHpwCYcOSjOu39LKpLIb7Uo+p6S9tu+IsO5z/XAg==",
   "success": true,
   "projectFilePath": "/home/matvey/AuthApp/AuthApp.csproj",
   "expectedPackageFiles": [
@@ -86,6 +86,8 @@
     "/home/matvey/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
     "/home/matvey/.nuget/packages/netstandard.library/1.6.1/netstandard.library.1.6.1.nupkg.sha512",
     "/home/matvey/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/home/matvey/.nuget/packages/npgsql/7.0.0/npgsql.7.0.0.nupkg.sha512",
+    "/home/matvey/.nuget/packages/npgsql.entityframeworkcore.postgresql/7.0.0/npgsql.entityframeworkcore.postgresql.7.0.0.nupkg.sha512",
     "/home/matvey/.nuget/packages/nuget.common/6.3.1/nuget.common.6.3.1.nupkg.sha512",
     "/home/matvey/.nuget/packages/nuget.configuration/6.3.1/nuget.configuration.6.3.1.nupkg.sha512",
     "/home/matvey/.nuget/packages/nuget.dependencyresolver.core/6.3.1/nuget.dependencyresolver.core.6.3.1.nupkg.sha512",
