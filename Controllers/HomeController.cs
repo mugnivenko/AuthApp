@@ -57,6 +57,16 @@ public class HomeController : Controller
     return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
   }
 
+  private ApplicationUser? GetCurrentUser(string? currentUserId)
+  {
+    var currentUsers = _context.Users.Where(user => user.Id == currentUserId).ToArray();
+    if (currentUsers.Length == 0)
+    {
+      return null;
+    }
+    return currentUsers.First();
+  }
+
   private bool CurrentUserBlocked()
   {
     var currentUserId = GetCurrentUserId();
@@ -64,7 +74,11 @@ public class HomeController : Controller
     {
       return false;
     }
-    var currentUser = _context.Users.Where(user => user.Id == currentUserId).ToArray().First();
+    var currentUser = GetCurrentUser(currentUserId);
+    if (currentUser == null)
+    {
+      return true;
+    }
     return currentUser.Blocked;
   }
 
